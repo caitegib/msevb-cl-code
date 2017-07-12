@@ -3,6 +3,8 @@ subroutine potential(eng,eps_cl_hcl,sig_cl_hcl,eps_cl_v,sig_cl_v,eps_hyd_hydron_
 &sig_clhcl_hydw,q_hhcl,b_clo_1,b_clo_2,b_clo_3,doo_clo,fac,alpha,fac2,beta,fac3,alph2,r1sw,r2sw) 
 use hcl_mod
 implicit none
+!! whatever 
+
 
 !!! ===== Variables =====
 real*8, allocatable, dimension(:) ::d,eig_vec  !(eigenvalue)
